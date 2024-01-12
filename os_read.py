@@ -1,11 +1,11 @@
 import os
 import readchar
 
-# Función para borrar la terminal
+
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-# Función para actualizar el número en la pantalla
+
 def update_number(num):
     clear_screen()
     print(f"El número actual es: {num}")
